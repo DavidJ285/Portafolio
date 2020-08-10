@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.BotonRegresar img{
+  width: 70px;
+  margin-left: 50px;
+  height: 70px;
+  margin-top: 20px;
+}
+.loginInfor{
+  width: 300px;/*ANCHO DE LA CAJA*/
+  height: 320px;/*ALTO DE LA CAJA*/
+  font-size: 19px;/*TAMAÑO DE LETRA*/
+  margin-top: 80px;/*CAJA HACIA ABAJO*/
+  margin-left: 200px;/*CAJA HACIA LA IZQUIERDA*/
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.laboratorio2{
+  width: 300px;
+  height: 425px;
+  margin-left: 520px;
+  margin-top: -400px;
+
+}
+.fondo{
+  width: 300px;
+  height: 425px;
+  border-radius: 10px;
+}
+.div{
+  margin-top: -410px;
+  margin-left: 85px;
+  width: 120px
+}
+div img{
+  border-radius: 70px;
+  width: 120px;
+  height: 120px;
+}
+.iniciar{
+margin-top: 40px;
+  margin-left: 75px;
+  color: #41A48F;
+  font-size: 25px;
+}
+input{
+  height: 25px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+.datos{
+  width: 120px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.botonpeque{
+  background-color: #14A6AC;
+  width: 20px;
+  margin-top: 10px;
+  height: 20px;
+  border: #FFFFD3 solid 2px;
+}
+.tt{
+  color: white;
+  margin-left: 30px;
+  margin-top: -20px;
+  font-size: 10px;
+}
+.boton{
+  margin-left: 170px;
+  margin-top: -20px;
+
+}
+button{
+  border: none;
+  font-size: 11px;
+  color:white;
+  width: 85px;
+  background-color: #0E4C57;
+  height: 32px;
+}
+.crear{
+font-size: 10px;
+color: white;
+margin-left: 180px;
+margin-top: 20px;
+}
