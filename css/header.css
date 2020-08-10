@@ -1,0 +1,108 @@
+*{
+  margin: 0;/*SIN MARGEN*/
+  padding: 0;/*SIN RELLENO*/
+  text-decoration: none;/*SIN DECORACION*/
+
+}
+.david2{
+height: 1430px;/*ALTO DE LA CAJA*/
+margin-top: 50px;/*CAJA HACIA ABAJO*/
+
+}
+.img{
+  width: 80px;/*ANCHO DE LA CAJA*/
+  height: 80px;/*ALTO DE LA CAJA*/
+  margin-left: 10px;/*CAJA HACIA LA IZQUIERDA*/
+  margin-top: -66px;/*CAJA HACIA ABAJO PERO COMO ESTA EN NEGATIVO SE IRA HACIA ARRIBA*/
+}
+.d{
+  padding-left: 100px;/*TEXTO SE MUEVE A LA IZQUIERDA*/
+  margin-top: -80px;/*CAJA HACIA ABAJO*/
+  font-size: 32px;/*TAMAÑO DE LETRA*/
+
+}
+.david3{
+  margin-top: -50px;/*CAJA HACIA ABAJO*/
+  width: 100%;/*ANCHO DE LA CAJA*/
+height:120px;/*ALTO DE LA CAJA*/
+background-color: black;/*COLOR DE LA CAJA*/
+}
+.jeje{
+  margin-top: 80px;/*/*ANCHO DE LA CAJA*/
+  width:100%;/*ANCHO DE LA /*ALTO DE LA CAJA*/
+  height: 830%;/*ALTO DE LA CAJA*/
+}
+.jeje1{
+  width: 0;/*ANCHO DE LA CAJA*/
+}
+
+.home{
+  height: 90px;/*ALTO DE LA CAJA*/
+  width: 500px;/*ANCHO DE LA CAJA*/
+  margin-left: 800px;/*CAJA HACIA LA IZQUIERDA*/
+  margin-top: -107px;/*CAJA HACIA ABAJO*/
+}
+.home ul{
+  display:flex;/*CAJA FLEXIBLE*/
+    list-style: none;/*NO SE USA NINGUN TIPO DE LISTA*/
+}
+.home ul li{
+  padding-left: 5px;/*TEXTO A LA IZQUIERDA*/
+  padding-right: 2px;/*TEXTO A LA DERECHA*/
+  padding-top: 10px;/*TEXTO HACIA ABAJO*/
+  height: 45px;/*ALTO DE LA CAJA*/
+  color: white;/*COLOR DE LETRA*/
+  margin-top: 40px;/*CAJA HACIA ABAJO*/
+  font-size: 32px;/*TAMAÑO DE LETRA*/
+
+}
+.home ul li:hover{/*PROPIEDADES DEL HOVER*/
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+background-color: gray;/*COLOR DE LA CAJA*/
+}
+@media only screen and (max-width:767px){/*RESPONSIVE*/
+.img{
+  margin-top:-70px;/*CAJA HACIA ABAJO*/
+}
+.d{
+  font-size: 25px;/*TAMAÑO DE LETRA*/
+}
+  .david2{
+  height: 2600px;/*ALTO DE LA CAJA*/
+  }
+  .jeje{
+    width: 0px;/*ANCHO DE LA CAJA*/
+  }
+.jeje1{
+  height: 2600px;/*ALTO DE LA CAJA*/
+  width: 100%;/*ANCHO DE LA CAJA*/
+}
+  .home{
+    height: 310px;/*ALTO DE LA CAJA*/
+    width: 300px;/*ANCHO DE LA CAJA*/
+    margin-left: 46px;/*CAJA HACIA LA IZQUIERDA*/
+    margin-top: 40px;/*CAJA HACIA ABAJO*/
+  }
+  .home ul{
+    display:flex;/*CAJA FLEXIBLE*/
+  }
+  .home ul li{
+    padding-left: 5px;/*LETRA A LA IZQUIERDA*/
+    padding-right: 2px;/*LETRA A LA DERECHA*/
+    padding-top: 5px;/*LETRA HACIA ABAJO*/
+    height: 45px;/*ALTO DE LA CAJA*/
+    color: white;/*DOLOR DE LETRA*/
+    margin-top: 17px;/*CAJA HACIA ABAJO*/
+    font-size: 18px;/*TAMAÑO DE LETRA*/
+
+  }
+  .home ul li:hover{/*PROPIEDADES DEL HOVER*/
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  background-color: gray;/*COLOR DE LA CAJA*/
+}

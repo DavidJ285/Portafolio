@@ -1,0 +1,70 @@
+*{
+  padding: 0;/*RELLENO DE 0*/
+  margin: 0;/*MARGEN DE 0*/
+  text-decoration: none;/*TEXTO SIN DECORACION*/
+  color:white;/*COLOR DE LETRA BLANCO*/
+  }
+  body {
+  background: #090d00;/*COLOR DE FONDO*/
+  text-align: center;/*TEXTO CENTRADO*/
+}
+
+p {
+	text-transform: uppercase;
+  	letter-spacing: .5em;/*SEPARAR LAS LETRAS*/
+	border: 4px double rgba(255,255,255);/*BORDE*/
+	border-width: 4px 0;/*ANCHURA DE LOS BORDES*/
+  padding-top: 20px;/*BAJA EL TEXTO*/
+	position: absolute;/*DESPLAZAMIENTO DE LOS BORDES*/
+
+  height: 32%;/*ALTO DE LA CAJA*/
+	left: 30%;/*DESPLAZA ENTRE EL BLOQUE IZQUIERDO  Y LA PARTE IZQUIERDA DE SU ELEMENTO*/
+	width: 42%;/*ANCHO DE LA CAJA*/
+
+  top: 35%;/*BAJA LA CAJA*/
+}
+  span {
+
+  	font: 70 4em/1 "Oswald", sans-serif;/*ESTABLECE LOS VALORES DEL TEXTO*/
+  	letter-spacing: 0;/*DA UN ESPACIO ADICIONAL ENTRE LOS CARACTERES*/
+  	padding: .25em 0 .325em; /*RELLENO DE ELEMENTOS*/
+	  display: block;/*HACE QUE EL ELEMNTO SEA COMO UN BLOQUE*/
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);/*SOMBRA DEL TEXTO*/
+
+/* IMAGEN DE FONDO DEL CLIP*/
+
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* ANIMAR IMAGEN DE FONDO */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* LAS ANIMACIONES SEAN MAS FLUIDAS*/
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+
+}
+
+/* ANIMAR IMAGEN DE FONDO */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+@media only screen and (max-width:767px){/*RESPONSIVE*/
+  span{
+	font-size: 45px;/*TAMAÑO DE LETRA*/
+
+  }
+  p{
+    	margin: 0 0 0 -15em;
+      width: 20em;/*ANCHO DE LA CAJA*/
+      	margin-top: -5%;/*CAJA HACIA ABAJO*/
+        margin-left: -20%;/*CAJA HACIA LA IZQUIERDA PERO COMO ESTÁ EN NEGATIVO SE IRÁ HACIA LA DERECHA*/
+  }
+}

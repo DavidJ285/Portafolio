@@ -1,0 +1,80 @@
+*{
+  margin: 0;/*SIN MARGEN*/
+  padding: 0;/*SIN RELLENO*/
+  text-decoration: none;/*SIN DECORACION*/
+  color: white;/*COLOR DE LA LETRA*/
+}
+footer{
+  width: 99.7%;/*ANCHO DE LA CAJA*/
+  height: 346px;/*ALTO DE LA CAJA*/
+  display: flex;/*CAJA FLEXIBLE*/
+  flex-direction: row;/*CONTENIDO HACIA LA DERECHA*/
+  margin-top: -250px;/*CAJA HACIA ABAJO*/
+  border: black 2px solid;/*BORDE DE LA CAJA*/
+  background: linear-gradient(30deg,#272727,#5A5856,#5A5856,#92908D);/*DEGRADADO DE LA CAJA*/
+}
+.d1{
+  width: 25%;/*ANCHO DE LA CAJA*/
+  height: 150px;/*ALTO DE LA CAJA*/
+  display: flex;/*CAJA FLEXIBLE*/
+  flex-direction: column;/*CONTENIDO EN COLUMNNA*/
+}
+.d1 h3{
+  font-size: 25px;/*TAMAÑO DE LETRA*/
+
+}
+.d1 p{
+  font-size: 25px;/*TAMAÑO DE LETRA*/
+
+
+}
+.d2{
+  width: 25%;/*ANCHO DE LA CAJA*/
+  height: 150px;/*ALTO DE LA CAJA*/
+  display: flex;/*CAJA FLEXIBLE*/
+  flex-direction: column;/*CONTENIDO HACIA ABAJO*/
+  margin-left: 800px;/*CAJA A LA IZQUIERDA*/
+}
+.d2 h3{
+  font-size: 25px;/*TAMAÑO DE LETRA*/
+
+}
+.d2 p{
+font-size: 20px;/*TAMAÑO DE LETRA*/
+
+}
+.in{
+  width: 100%;/*ANCHO DE LA CAJA*/
+  height: 70px;/*ALTO DE LA CAJA*/
+}
+.s1{
+  width: 50px; /*ANCHO DE LA CAJA*/
+  height: 50px; /*ALTO DE LA CAJA*/
+  margin-top: 10px; /*CAJA HACIA ABAJO*/
+
+}
+.in2{
+  width: 100%; /*ANCHO DE LA CAJA*/
+  height: 65px; /*ALTO DE LA CAJA*/
+
+}
+.s2{
+  width: 70px; /*ANCHO DE LA CAJA*/
+  height: 70px; /*ALTO DE LA CAJA*/
+}
+
+@media only screen and (max-width:767px){ /*RESPONSIVE*/
+.david2 footer{
+  border: 2px white solid; /*BORDE DE LA CAJA*/
+  background:linear-gradient(30deg,515150,black); /*DEGRADADO DE LA CAJA DE LA CAJA*/
+  width: 95%; /*ANCHO DE LA CAJA*/
+height: 25%; /*ALTO DE LA CAJA*/
+padding-left: 15px; /*LETRA A LA IZQUIERDA*/
+margin-top: 245px; /*CAJA HACIA ABAJO*/
+padding-top: -10px; /*LETRA HACIA ABAJO*/
+}
+footer .d2{
+  height: 500px; /*ALTO DE LA CAJA*/
+  margin-left: 100px; /*ANCHO DE LA CAJA*/
+}
+}

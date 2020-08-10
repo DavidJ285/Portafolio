@@ -1,0 +1,92 @@
+*{
+  padding: 0;/*SIN RELLENO*/
+  margin: 0;/*SIN MARGEN*/
+  font-family:serif;/*TIPO DE LETRA*/
+  color: white;/*COLOR DE LETRA*/
+
+}
+.texto{
+  width: 300px;/*ANCHO DE LA CAJA*/
+  height: 890px;/*ALTO DE LA CAJA*/
+margin-top: 80px;/*CAJA HACIA ABAJO*/
+  margin-left: 15px;/*CAJA A LA IZQUIERDA*/
+  font-size: 19px;/*TAMAÑO DE LETRA*/
+}
+.texto img{
+
+  margin-left: 45px;/*CAJA A LA IZQUIERDA*/
+  margin-top: 40px;/*CAJA HACIA ABAJO*/
+}
+.body2{
+  margin-left: 400px;/*CAJA A LA IZQUIERDA*/
+  margin-top: -900px;/* CAJA HACIA ABAJO*/
+  height: 475px;/*ALTO DE LA CAJA*/
+  width: 800px;/*ANCHO DE LA CAJA*/
+font-size: 17px;/*TAMAÑO DE LETRA*/
+
+}
+.body2contenido{
+  font-size: 19px;/*TAMAÑO DE LETRA*/
+}
+.imagen{
+  height: 250px;/*ALTO DE LA CAJA*/
+}
+.imagen img{
+  width: 620px;
+  height: auto;
+  margin-top: -45px;/*CAJA HACIA ABAJO*/
+}
+.body3{
+  margin-left: 400px;/*CAJA A LA IZQUIERDA*/
+  margin-top: 100px;/*CAJA HACIA ABAJO*/
+  height: 420px;/*ALTO DE LA CAJA*/
+  width: 800px;/*ANCHO DE LA CAJA*/
+font-size: 17px;/*TAMAÑO DE LETRA*/
+margin-top: -29px;/*CAJA HACIA ABAJO*/
+}
+.contenido{
+  font-size: 19px;/*TAMAÑO DE LETRA*/
+}
+.imagen2{
+  height: 300px;/*ALTO DE LA CAJA*/
+  margin-top: 20px;/*CAJA HACIA ABAJO*/
+
+
+}
+.imagen2 img{
+  margin-top: -45px;/*CAJA HACIA ABAJO*/
+}
+@media only screen and (max-width:767px){/*RESPONSIVE*/
+
+.texto{
+  font-size: 20px;
+  width: 80%;/*ANCHO DE LA CAJA*/
+  height: 950px;/*ALTO DE LA CAJA*/
+  border: 2px black solid;/*BORDE DE LA CAJA*/
+margin-top: -160px;/*CAJA HACIA ABAJO*/
+}
+.texto img{
+  margin-top: 15px;/*CAJA HACIA ABAJO*/
+}
+body .body2{
+  height: 780px;/*ALTO DE LA CAJA*/
+  width: 80%;/*ANCHO DE LA CAJA*/
+  margin-top: -20px;/*CAJA HACIA ABAJO*/
+margin-left: 15px;/*CAJA A LA IZQUIERDA*/
+}
+.imagen img{
+width: 350px;/*ANCHO DE LA CAJA*/
+height: 200px;/*ALTO DE LA CAJA*/
+
+}
+body .body3{
+margin-top: -130px;/*CAJA HACIA ARRIBA*/
+margin-left: 15px;/*CAJA A LA IZQUIERDA*/
+height: 780px;/*ALTO DE LA CAJA*/
+width: 80%;/*ANCHO DE LA CAJA*/
+}
+.imagen2 img{
+  width: 340px;/*ANCHO DE LA CAJA*/
+  height: 300px;/*ALTO DE LA CAJA*/
+}
+}
