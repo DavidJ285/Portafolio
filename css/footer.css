@@ -11,7 +11,7 @@ footer{
   flex-direction: row;/*CONTENIDO HACIA LA DERECHA*/
   margin-top: 97px;/*CAJA HACIA ABAJO*/
   border: black 2px solid;/*BORDE DE LA CAJA*/
-  background: linear-gradient(30deg,#272727,#5A5856,#5A5856,#92908D);/*DEGRADADO DE LA CAJA*/
+  background-color: #078C74;/*DEGRADADO DE LA CAJA*/
 }
 .d1{
   width: 25%;/*ANCHO DE LA CAJA*/
@@ -70,8 +70,8 @@ font-size: 20px;/*TAMAÑO DE LETRA*/
   width: 95%; /*ANCHO DE LA CAJA*/
 height: 22%; /*ALTO DE LA CAJA*/
 padding-left: 15px; /*LETRA A LA IZQUIERDA*/
-margin-top: -200px; /*CAJA HACIA ABAJO*/
-padding-top: 160px; /*LETRA HACIA ABAJO*/
+margin-top: -140px; /*CAJA HACIA ABAJO*/
+padding-top: 20px; /*LETRA HACIA ABAJO*/
 }
 footer .d2{
   height: 500px; /*ALTO DE LA CAJA*/
