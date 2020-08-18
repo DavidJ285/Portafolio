@@ -2,19 +2,21 @@
   padding: 0;/*SIN RELLENO*/
   margin: 0;/*SIN MARGEN*/
   font-family: serif;/*TIPO DE LETRA*/
-  color:white;/*COLOR DE LETRA*/
 }
 .cuerpo{
-  height: 580px;/*ALTO DE LA CAJA*/
+  height: 610px;/*ALTO DE LA CAJA*/
   width: 330px;/*ANCHO DE LA CAJA*/
   margin-left: 20px;/*CAJA A LA IZQUIERDA*/
   margin-top: 100px;/*CAJA HACIA ABAJO*/
+  border: 2px black solid;
 }
 .title{
   font-size: 29px;/*TAMAÑO DE LETRA*/
+  color:black;
 }
 .contenido{
   font-size: 20px;/*TAMAÑO DE LETRA*/
+  color:black;
 }
 .android{
   width: 850px;/*ANCHO DE LA CAJA*/
@@ -25,8 +27,9 @@
 
 }
 .proo{
-  padding-top: 40px;/*TEXTO HACIA ABAJO*/
+  padding-top: -10px;/*TEXTO HACIA ABAJO*/
   font-size: 30px;/*TAMAÑO DE LETRA*/
+  color: black;
 }
 .imageen{
   margin-top: -80px;/*CAJA HACIA ABAJO*/
@@ -37,6 +40,7 @@
 .con{
   font-size: 19px;/*TAMAÑO DE LETRA*/
   text-align: justify;/*TEXTO JUSTIFICADO*/
+  color: black;
 }
 .an{
   height: 390px;/*ALTO DE LA CAJA*/
@@ -46,8 +50,8 @@
 
   div.cuerpo{
   margin-left: 4px;/*CAJA A LA IZQUIERDA*/
-  width: 370px;/*ANCHO DE LA CAJA*/
-  margin-top: -120px;/*CAJA HACIA ARRIBA*/
+  width: 360px;/*ANCHO DE LA CAJA*/
+  margin-top: -190px;/*CAJA HACIA ARRIBA*/
   }
   .android{
     margin-left: 10px;/*CAJA HACIA LA IZQUIERDA*/
