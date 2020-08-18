@@ -2,124 +2,173 @@
   padding: 0;/*SIN RELLENO*/
   margin: 0;/*SIN MARGEN*/
     font-family: serif;/*TIPO DE LETRA*/
-    color:white;/*COLOR DE LETRA*/
+}
+.fondohtml{
+  margin-top: 42px;
+}
+.fondohtml img{
+  width: 100%;
+  height: 400px;
+  position: relative;
 }
 .p1{
-height: 70px;/*ALTO DE LA CAJA*/
-width: 500px;/*ANCHO DE LA CAJA*/
+height: 230px;/*ALTO DE LA CAJA*/
+width: 1000px;/*ANCHO DE LA CAJA*/
 font-size: 30px;/*TAMAÑO DE LETRA*/
 text-align: center;/*TEXTO CENTRADO*/
-margin-left: 450px;/*TEXRO A LA IZQUIERDA*/
-margin-top: 60px;/*CAJA HACIA ABAJO*/
+margin-left: 200px;/*TEXRO A LA IZQUIERDA*/
+margin-top: -350px;/*CAJA HACIA ABAJO*/
+color: white;
+position: absolute;
+background-color: rgba(0,0,0,0.6)
 
 
 }
 .pppp{
   margin-left: 220px;/*CAJA A LA IZQUIERDA*/
-margin-top: 20px;/*CAJA HACIA ABAJO*/
+margin-top: -270px;/*CAJA HACIA ABAJO*/
   height: 80px;/*ALTO DE LA CAJA*/
   width: 960px;/*ANCHO DE LA CAJA*/
+  color: white;
   font-size: 23px;/*TAMAÑO DE LA LETRA*/
-}
-.cuadros{
-  width: 100%;/*ANCHO DE LA CAJA*/
-  height: 670px;/*ALTO DE LA CAJA*/
-  margin-top: 50px;/*CAJA HACIA ABAJO*/
-  display: flex;/*CAJA FLEXIBLE*/
-  flex-direction: row;/*CONTENIDO HACIA LA DERECHA*/
+  position: absolute;
 
 }
+.dj_slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin-left: 370px
 
-.cuadritos{
-  width: 220px;/*ANCHO DE LA CAJA*/
-  height: 150px;/*ALTO DE LA CAJA*/
-  margin-top:50px;/*CAJA HACIA ABAJO*/
-  margin-left: 55px;/*CAJA A LA IZQUIERDA*/
-  display: flex;/*CAJA FLEXIBLE*/
-  flex-direction:column;/*CONTENIDO EN COLUMNA*/
-  font-size: 25px;/*TAMAÑO DE LETRA*/
-  text-align: center;/*TEXTO ALINEADO AL CENTRO*/
 }
-.cuadritos2{
-  width: 220px;/*ANCHO A LA IZQUIERDA*/
-  height: 150px;/*ALTO DE LA CAJA*/
-  margin-top:50px;/*CAJA HACIA ABAJO*/
-  margin-left: 260px;/*CAJA A LA IZQUIERDA*/
-  display: flex;/*CAJA FLEXIBLE*/
-  flex-direction: column;/*CONTENIDO EN COLUMNA*/
-}
-.cuadritos3{
-  width: 220px;/*ANCHO A LA IZQUIERDA*/
-  height: 150px;/*ALTO DE LA CAJA*/
-  margin-top:50px;/*CAJA HACIA ABAJO*/
-  margin-left: 250px;/*CAJA A LA IZQUIERDA*/
-  display: flex;/*CAJA FLEXIBLE*/
-  flex-direction: column;/*CONTENIDO EN COLUMNA*/
-}
-div{
-  font-size: 14px;/*TAMAÑO DE LETRA*/
-  text-align: left;/*TEXTO A LA IZQUIERDA*/
-}
-div img{
-    width: 280px;/*ANCHO DE LA CAJA*/
-    height: 200px;/*ALTO DE LA CAJA*/
-    border-radius: 5px;/*REDONDEAR LA CAJA*/
-}
+.dj_slideshow-container img{
+  width: 250px;
+  height: 200px;
+  margin-right: 150px;
+  margin-left: -140px;
+  margin-top: 10px;
+  position:
 
+}
+.textolab{
+  position: absolute;
+  font-size: 20px;
+  color:black;
+  width: 250px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -55px;
+  color:white;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: -140px;
+}
+.dot {
+  margin-right: 30px;
+  margin-left: -10px;
+  height: 15px;
+  width: 15px;
 
-.cuadritos:hover img{/*PROPIEDADES DEL CUADRO HOVER*/
-  -webkit-transform:scale(1.10);
-  -moz-transform:scale(1.10);
-  -ms-transform:scale(1.10);
-  -o-transform:scale(1.10);
-  transform:scale(1.10);
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.cuadritos2:hover img{/*PROPIEDADES DEL CUADRO HOVER*/
-  -webkit-transform:scale(1.10);
-  -moz-transform:scale(1.10);
-  -ms-transform:scale(1.10);
-  -o-transform:scale(1.10);
-  transform:scale(1.10);
+.active {
+  background-color: #717171;
 }
 
-.cuadritos3:hover img{/*PROPIEDADES DEL CUADRO HOVER*/
-  -webkit-transform:scale(1.10);
-  -moz-transform:scale(1.10);
-  -ms-transform:scale(1.10);
-  -o-transform:scale(1.10);
-  transform:scale(1.10);
+.fade{
+  margin-left: -80px;
+   margin-top: 50px;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 @media only screen and (max-width:767px){/*RESPONSIVE*/
 
-.html  .p1{
+.p1{
   font-size: 28px;/*TAMAÑO DE LETRA*/
-  width: 300px;/*ANCHO DE LA CAJA*/
-  margin-left: 20px;/*CAJA A LA IZQUIERDA*/
-  margin-top: -5px;/*CAJA HACIA ARRIBA*/
+  width: 350px;/*ANCHO DE LA CAJA*/
+  height: 350px;
+  margin-left: 10px;/*CAJA A LA IZQUIERDA*/
+  margin-top: -370px;/*CAJA HACIA ARRIBA*/
+  background-color: rgba(0,0,0,0.7);
 
 }
 .html .pppp{
     font-size: 23px;
+    margin-top: -290px;
     margin-left: 14px;/*CAJA A LA IZQUIERDA*/
     height: 380px;/*ALTO DE LA CAJA*/
     width: 96%;/*ANCHO DE LA CAJA*/
 }
-.cuadros{
-  display: flex;/*CAJA FLEXIBLE*/
-  flex-direction: column;/*CONTENIDO EN COLUMNA*/
-  margin-top: 25px;/*CAJA HACIA ABAJO*/
+
+.fondohtml img{
+  height: 400px;
 }
-.cuadros .cuadritos{
-  margin-left: 40px;/*CAJA A LA IZQUIERDA*/
-  margin-top: -60px;/*CAJA HACIA ABAJO*/
-font-size: 30px;/*TAMAÑO DE LETRA*/
+.dj_slideshow-container img{
+  width: 250px;
+  height: 200px;
+  margin-right: 150px;
+  margin-left: -250px;
+  margin-top: 10px;
+  position:
+
 }
-.cuadros .cuadritos2{
-  margin-left: 40px;/*CAJA A LA IZQUIERDA*/
-  margin-top: 130px;/*CAJA HACIA ABAJO*/
+.textolab{
+  position: absolute;
+  font-size: 20px;
+  color:black;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -50px;
+  color:white;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: -200px;
 }
-.cuadros .cuadritos3{
-  margin-left: 40px;/*CAJA A LA IZQUIERDA*/
-  margin-top: 130px;/*CAJA HACIA ABAJO*/
+.dj_slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin-left: 370px
+
+}
+.dj_slideshow-container img{
+  width: 200px;
+  height: 150px;
+  margin-left: -200px;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+.dot {
+  margin-right: 30px;
+  margin-left: -10px;
+  height: 15px;
+  width: 15px;
+
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade{
+  margin-left: -80px;
+   margin-top: 50px;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
