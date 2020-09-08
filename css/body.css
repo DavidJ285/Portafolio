@@ -77,8 +77,9 @@ color: black;
 .dj_slideshow-container img{
   width: 900px;
   height: 430px;
+
   margin-left: -70px;
-  margin-top: 10px;
+  margin-top: -80px;
 }
 .dot {
   margin-right: 30px;
@@ -124,7 +125,7 @@ body .body2{
 margin-left: 15px;/*CAJA A LA IZQUIERDA*/
 }
 .imagen img{
-width: 350px;/*ANCHO DE LA CAJA*/
+width: 115%;/*ANCHO DE LA CAJA*/
 height: 200px;/*ALTO DE LA CAJA*/
 
 }
@@ -139,16 +140,17 @@ width: 80%;/*ANCHO DE LA CAJA*/
   height: 300px;/*ALTO DE LA CAJA*/
 }
 .dj_slideshow-container img{
-  width: 355px;
+  width: 350px;
   height: 200px;
   margin-left: -280px;
-  margin-top: -300px;
+  margin-top: -20px;
 }
 .dot {
   margin-right: 10px;
   margin-left: 10px;
   height: 15px;
   width: 15px;
+
 
   background-color: #bbb;
   border-radius: 50%;

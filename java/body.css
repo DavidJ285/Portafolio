@@ -16,12 +16,11 @@ background-color: rgba(0,0,0,0.3);
 
 }
 .fondojava{
-  margin-top: 42px;
+  margin-top: -65px;
 }
 .fondojava img{
   width: 100%;
   height: 450px;
-  position: relative;
 }
 .pppp{
   margin-left: 220px;/*CAJA A LA IZQUIERDA*/

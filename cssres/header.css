@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+font-family: cursive;
+}
+header{
+width:100%;
+height:100px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.sectionindex{
+width:80%;
+height:450px;
+background-color:blue;
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.art_1{
+  width: 60%;
+  height: 500px;
+}
+.art_1 img{
+  width: 100%;
+  margin-left: 10px;
+  height: 123px;
+}
+.red_global{
+  text-align: center;
+  margin-top: 20px;
+
+}
+.desglobal{
+  text-align: justify;
+  column-count:2;
+  padding-right: 5px;
+  margin-left: 10px;
+
+}
+.art_2{
+  width: 40%;
+  height: 500px;
+  margin-left: 20px;
+}
+.art_2 img{
+  width: 100%;
+  height: 124px;
+}
+.jeje{
+  margin-top: 50px;
+}
+.jaja0{
+width:80px;
+height:80px;
+border-radius:100%;
+margin-top:10px;
+margin-left:20px;
+}
+.david{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.cajalogo{
+  display: flex;
+  flex-direction: row;
+}
+.cajabotones{
+  width: auto;
+  height: 20px;
+  margin-top:40px;
+  margin-right: 272px;
+
+  display: flex;
+
+}
+.cajabotones ul{
+  display:flex;
+  list-style: none;
+
+}
+.cajabotones ul li{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  border:1px solid black;
+  padding-bottom: 10px;
+  color: red;
+}
+.cajabotones ul li:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.menu1_imagenes{
+  width: 20px;
+  cursor: pointer;
+  display: none;
+}
+@media only screen and (max-width:767px){
+  header{
+  width:100%;
+  height:65px;
+}
+.menu{
+  margin-left: 25%;
+  width: 100%;
+  background-color: #17202A;
+  z-index: 1;
+}
+.cajabotones{
+  width: auto;
+  height:auto;
+  margin-top:10px;
+  margin-right: 0px;
+
+  display: flex;
+
+}
+.menu1_imagenes{
+  width: 40px;
+  height: 40px;
+display: flex;
+margin-right: 10px;
+}
+  .jaja0{
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-top:10px;
+  margin-left:20px;
+}
+  .david{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+.sectionindex{
+width:90%;
+height:auto;
+background-color:#FBFCFC;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.art_1{
+  width: 100%;
+  height: auto;
+  margin:auto;
+}
+.art_1 img{
+  width: 100%;
+  margin-left: 18px;
+  height: 123px;
+}
+.art_2{
+width: 100%;
+height: 500px;
+margin-top: 20px;
+}
+.cajabotones ul{
+  display:none;
+  list-style: none;
+  }
+  .cajabotones ul{
+    display:none;
+    list-style: none;
+
+
+}
+.desglobal{
+  text-align:justify;
+  padding-right: 5px;
+  column-count:1;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.jeje{
+font-size: 18px;
+
+}
