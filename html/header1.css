@@ -81,7 +81,7 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
   padding-bottom: 20px;
 }
 .botones4 a li:hover{
-    background-color: purple;
+    background-color: #066A58;
 }
 @media only screen and (max-width:767px){/*RESPONSIVE*/
 .img{

@@ -7,7 +7,6 @@
   height: 610px;/*ALTO DE LA CAJA*/
   width: 330px;/*ANCHO DE LA CAJA*/
   margin-left: 20px;/*CAJA A LA IZQUIERDA*/
-  margin-top: 100px;/*CAJA HACIA ABAJO*/
   border: 2px black solid;
 }
 .title{
@@ -22,7 +21,7 @@
   width: 850px;/*ANCHO DE LA CAJA*/
   height: 700px;/*ALTO DE LA CAJA*/
   margin-left: 450px;/*CAJA A LA IZQUIERDA*/
-  margin-top: -540px;/*CAJA HACIA ABAJO*/
+  margin-top: -600px;/*CAJA HACIA ABAJO*/
   text-align: center;/*TEXTO CENTRADO*/
 
 }

@@ -80,7 +80,7 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
   padding-bottom: 20px;
 }
 .botones4 a li:hover{
-    background-color: purple;
+    background-color: #066A58;
 }
 @media only screen and (max-width:767px){/*RESPONSIVE*/
 .img{
@@ -92,30 +92,3 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
   .david2{
   height: 2200px;/*ALTO DE LA CAJA*/
   }
-  .home{
-    height: 110px;/*ALTO DE LA CAJA*/
-    width: 300px;/*ANCHO DE LA CAJA*/
-    margin-left: 46px;/*CAJA HACIA LA IZQUIERDA*/
-    margin-top: 40px;/*CAJA HACIA ABAJO*/
-  }
-  .home ul{
-    display:flex;/*CAJA FLEXIBLE*/
-  }
-  .home ul li{
-    padding-left: 5px;/*LETRA A LA IZQUIERDA*/
-    padding-right: 2px;/*LETRA A LA DERECHA*/
-    padding-top: 5px;/*LETRA HACIA ABAJO*/
-    height: 45px;/*ALTO DE LA CAJA*/
-    color: black;/*DOLOR DE LETRA*/
-    margin-top: 17px;/*CAJA HACIA ABAJO*/
-    font-size: 18px;/*TAMAÑO DE LETRA*/
-
-  }
-  .home ul li:hover{/*PROPIEDADES DEL HOVER*/
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-  background-color: #066A58;/*COLOR DE LA CAJA*/
-
-}

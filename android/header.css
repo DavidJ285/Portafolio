@@ -27,31 +27,60 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
 height:120px;/*ALTO DE LA CAJA*/
 background-color: #078C74;/*COLOR DE LA CAJA*/
 }
-.home{
-  margin-left: 800px;/*CAJA HACIA LA IZQUIERDA*/
-  margin-top: -107px;/*CAJA HACIA ABAJO*/
 
+.nav{
+  width: 280px;
+  height: 150px;
+  margin-left: 77%;
+  list-style: none;
+  margin-top: -60px;
 }
-.home ul{
-  display:flex;/*CAJA FLEXIBLE*/
-    list-style: none;/*NO SE USA NINGUN TIPO DE LISTA*/
-}
-.home ul li{
-  padding-left: 5px;/*TEXTO A LA IZQUIERDA*/
-  padding-right: 2px;/*TEXTO A LA DERECHA*/
-  padding-top: 10px;/*TEXTO HACIA ABAJO*/
-  height: 45px;/*ALTO DE LA CAJA*/
-  color: white;/*COLOR DE LETRA*/
-  margin-top: 40px;/*CAJA HACIA ABAJO*/
-  font-size: 32px;/*TAMAÑO DE LETRA*/
 
+.bt{
+  float: left;
+  padding: 10px;
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: serif;
 }
-.home ul li:hover{/*PROPIEDADES DEL HOVER*/
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-background-color: #066A58;/*COLOR DE LA CAJA*/
+.bt:hover{
+  color: white;
+  background-color: orange;
+}
+.mas{
+  display: flex;
+  flex-direction: column;
+}
+.bt4{
+}
+.botones4{
+   list-style: none;
+   display: none;
+}
+.mostrar{
+  display: block;
+}
+.mas:hover{
+  background-color: orange;
+  position: absolute;
+  margin-left: 113px;
+}
+.botones4 a{
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.botones4 a li{
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.botones4 a li:hover{
+    background-color: #066A58;
 }
 @media only screen and (max-width:767px){/*RESPONSIVE*/
 .img{
@@ -69,30 +98,4 @@ background-color: #066A58;/*COLOR DE LA CAJA*/
 .jeje1{
   height: 1700px;/*ALTO DE LA CAJA*/
   width: 100%;/*ANCHO DE LA CAJA*/
-}
-  .home{
-    height: 310px;/*ALTO DE LA CAJA*/
-    width: 300px;/*ANCHO DE LA CAJA*/
-    margin-left: 46px;/*CAJA HACIA LA IZQUIERDA*/
-    margin-top: 40px;/*CAJA HACIA ABAJO*/
-  }
-  .home ul{
-    display:flex;/*CAJA FLEXIBLE*/
-  }
-  .home ul li{
-    padding-left: 5px;/*LETRA A LA IZQUIERDA*/
-    padding-right: 2px;/*LETRA A LA DERECHA*/
-    padding-top: 5px;/*LETRA HACIA ABAJO*/
-    height: 45px;/*ALTO DE LA CAJA*/
-    color: black;/*DOLOR DE LETRA*/
-    margin-top: 17px;/*CAJA HACIA ABAJO*/
-    font-size: 18px;/*TAMAÑO DE LETRA*/
-
-  }
-  .home ul li:hover{/*PROPIEDADES DEL HOVER*/
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-  background-color: gray;/*COLOR DE LA CAJA*/
 }
