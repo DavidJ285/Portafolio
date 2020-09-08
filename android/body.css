@@ -6,6 +6,7 @@
 .cuerpo{
   height: 610px;/*ALTO DE LA CAJA*/
   width: 330px;/*ANCHO DE LA CAJA*/
+  margin-top: 60px;
   margin-left: 20px;/*CAJA A LA IZQUIERDA*/
   border: 2px black solid;
 }
@@ -50,7 +51,7 @@
   div.cuerpo{
   margin-left: 4px;/*CAJA A LA IZQUIERDA*/
   width: 360px;/*ANCHO DE LA CAJA*/
-  margin-top: -190px;/*CAJA HACIA ARRIBA*/
+  margin-top: 170px;/*CAJA HACIA ARRIBA*/
   }
   .android{
     margin-left: 10px;/*CAJA HACIA LA IZQUIERDA*/

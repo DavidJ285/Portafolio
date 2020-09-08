@@ -4,7 +4,7 @@
     font-family: serif;/*TIPO DE LETRA*/
 }
 .fondohtml{
-  margin-top: -65px;
+  margin-top: 25px;
 }
 .fondohtml img{
   width: 100%;
@@ -36,7 +36,7 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
 .dj_slideshow-container {
   max-width: 1100px;
   position: relative;
-  margin-left: 370px
+  margin-left: 370px;
 
 }
 .dj_slideshow-container img{
@@ -45,7 +45,6 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
   margin-right: 150px;
   margin-left: -140px;
   margin-top: 10px;
-  position:
 
 }
 .textolab{
@@ -120,17 +119,18 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
   font-size: 28px;/*TAMAÑO DE LETRA*/
   width: 350px;/*ANCHO DE LA CAJA*/
   height: 350px;
+  position:static;
   margin-left: 10px;/*CAJA A LA IZQUIERDA*/
   margin-top: -370px;/*CAJA HACIA ARRIBA*/
-  background-color: rgba(0,0,0,0.7);
 
 }
 .html .pppp{
-    font-size: 23px;
-    margin-top: -290px;
-    margin-left: 14px;/*CAJA A LA IZQUIERDA*/
-    height: 380px;/*ALTO DE LA CAJA*/
-    width: 96%;/*ANCHO DE LA CAJA*/
+  font-size: 23px;
+  position: static;
+  margin-top: -290px;
+  margin-left: 14px;/*CAJA A LA IZQUIERDA*/
+  height: 380px;/*ALTO DE LA CAJA*/
+  width: 96%;/*ANCHO DE LA CAJA*/
 }
 
 .fondohtml img{
@@ -142,7 +142,6 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
   margin-right: 150px;
   margin-left: -250px;
   margin-top: 10px;
-  position:
 
 }
 .textolab{

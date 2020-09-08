@@ -29,9 +29,16 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
 .jeje1{
   width: 0;/*ANCHO DE LA CAJA*/
 }
+.logoResponsive {
+  width: 50px;
+  margin-top: 5px;
+  float: right;
+  display: none;
+}
 .nav{
   width: 280px;
-  height: 150px;
+  position: absolute;
+  height: 170px;
   margin-left: 77%;
   list-style: none;
   margin-top: -60px;
@@ -50,28 +57,25 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
   color: white;
   background-color: orange;
 }
-.mas{
+.mas {
   display: flex;
   flex-direction: column;
 }
-.bt4{
-}
 .botones4{
-   list-style: none;
-   display: none;
+  list-style: none;
+  display: none;
 }
-.mostrar{
+.mostrar {
   display: block;
 }
 .mas:hover{
   background-color: orange;
-  position: absolute;
-  margin-left: 113px;
 }
 .botones4 a{
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 .botones4 a li{
   text-decoration: none;
@@ -83,39 +87,103 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
 .botones4 a li:hover{
     background-color: #066A58;
 }
+/*SECCION DEL MENU RESPONSIVE*/
+.cajaDeIconos{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#iconoMenu{
+  width: 35px;
+  margin-top: 10px;
+  display: none;
+  margin-left: 10px;
+}
+#iconoCerrar {
+  width: 25px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.none {
+  display: none;
+}
+.cajaDeIconos{
+  display: none;
+}
 @media only screen and (max-width:767px){/*RESPONSIVE*/
-.img{
-  margin-top:-70px;/*CAJA HACIA ABAJO*/
-}
-.d{
-  font-size: 25px;/*TAMAÑO DE LETRA*/
-}
-  .david2{
-  height: 2120px;/*ALTO DE LA CAJA*/
+  header{
+    width: 100%;
+    height: 130px;
   }
-  .home{
-    height: 110px;/*ALTO DE LA CAJA*/
-    width: 300px;/*ANCHO DE LA CAJA*/
-    margin-left: 46px;/*CAJA HACIA LA IZQUIERDA*/
-    margin-top: 40px;/*CAJA HACIA ABAJO*/
+  .img{
+    display: none;
   }
-  .home ul{
-    display:flex;/*CAJA FLEXIBLE*/
+  .d{
+    margin-top: -100px;
+    margin-left: -90px;
+    font-size: 20px;/*TAMAÑO DE LETRA*/
   }
-  .home ul li{
-    padding-left: 5px;/*LETRA A LA IZQUIERDA*/
-    padding-right: 2px;/*LETRA A LA DERECHA*/
-    padding-top: 5px;/*LETRA HACIA ABAJO*/
-    height: 45px;/*ALTO DE LA CAJA*/
-    color: black;/*DOLOR DE LETRA*/
-    margin-top: 17px;/*CAJA HACIA ABAJO*/
-    font-size: 18px;/*TAMAÑO DE LETRA*/
+    .david2{
+    height: 2200px;/*ALTO DE LA CAJA*/
+    width: 100%;
+    }
+    .cajaDeIconos{
+      display: block;
+    }
+    .logoResponsive {
+      display: block;
+      float: right;
+    }
 
+    .activarNav {
+      background-color: #47DA3B;
+      width: 50%;
+      height: 324px;
+      position: absolute;
+    }
+    .nav {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: -0px;
+      padding-top: 0px;
+      padding-left: 0px;
+      box-sizing: border-box;
+      display: none;
+    }
+    .activarBotones {
+      display: block;
+    }
+    .bt {
+      display: block;
+      float: none;
+      margin-right: 0px;
+      padding-top: 60px;
+      font-size: 15px;
+      font-weight: 400;
+    }
+    #iconoMenu{
+      display: block;
+      float: left;
+    }
+    .mas:hover{
+      background-color: orange;
+    }
+    .botones4 a{
+      text-decoration: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .botones4 a li{
+      text-decoration: none;
+      color: white;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+    }
+    .botones4 a li:hover{
+        background-color: #16a085;
+    }
   }
-  .home ul li:hover{/*PROPIEDADES DEL HOVER*/
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-  background-color: #066A58;/*COLOR DE LA CAJA*/
-}

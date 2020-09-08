@@ -77,7 +77,6 @@ color: black;
 .dj_slideshow-container img{
   width: 900px;
   height: 430px;
-
   margin-left: -70px;
   margin-top: -80px;
 }
@@ -139,11 +138,14 @@ width: 80%;/*ANCHO DE LA CAJA*/
   width: 340px;/*ANCHO DE LA CAJA*/
   height: 300px;/*ALTO DE LA CAJA*/
 }
+.dj_slideshow-container{
+  position:static;
+}
 .dj_slideshow-container img{
-  width: 350px;
+  width: 410%;
   height: 200px;
   margin-left: -280px;
-  margin-top: -20px;
+  margin-top: 60px;
 }
 .dot {
   margin-right: 10px;

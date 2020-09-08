@@ -16,7 +16,7 @@ background-color: rgba(0,0,0,0.3);
 
 }
 .fondojava{
-  margin-top: -65px;
+  margin-top: 25px;
 }
 .fondojava img{
   width: 100%;
@@ -74,18 +74,20 @@ margin-top: -240px;/*CAJA HACIA ABAJO*/
 @media only screen and (max-width:767px){/*RESPONSIVE*/
 
 .p1{
+  position: static;
   font-size: 28px;/*TAMAÑO DE LETRA*/
   width: 360px;/*ANCHO DE LA CAJA*/
   height: 330px;
   background-color: rgba(0, 0, 0, 0.5);
   margin-left: 5px;/*CAJA A LA IZQUIERDA*/
-margin-top: -370px;/* CAJA HACIA ARRIBA*/
+  margin-top: -370px;/* CAJA HACIA ARRIBA*/
 }
 .pppp{
+  position: static;
   margin-top: -290px;
-    margin-left: 14px;/*CAJA A LA IZQUIERDA*/
-    height: 260px;/*ALTO DE LA CAJA*/
-    width: 96%;/*ANCHO DE LA CAJA*/
+  margin-left: 14px;/*CAJA A LA IZQUIERDA*/
+  height: 260px;/*ALTO DE LA CAJA*/
+  width: 96%;/*ANCHO DE LA CAJA*/
 }
 .fondojava img{
   height: 400px;
