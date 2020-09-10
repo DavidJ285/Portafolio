@@ -140,19 +140,23 @@ width: 80%;/*ANCHO DE LA CAJA*/
 }
 .dj_slideshow-container{
   position:static;
+  width: 100%;
+  margin-left: 0px;
+  background-color: red;
 }
 .dj_slideshow-container img{
-  width: 410%;
-  height: 200px;
-  margin-left: -280px;
-  margin-top: 60px;
+  width: 100%;
+  float: right;
+  margin-left: 280px;
+  height: 300px;
+  margin-top: 30px;
 }
 .dot {
   margin-right: 10px;
   margin-left: 10px;
   height: 15px;
   width: 15px;
-
+  margin-top: 20px;
 
   background-color: #bbb;
   border-radius: 50%;
@@ -161,5 +165,6 @@ width: 80%;/*ANCHO DE LA CAJA*/
 }
 .active {
   background-color: #717171;
+
 }
 }
