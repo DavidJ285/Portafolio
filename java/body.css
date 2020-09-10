@@ -76,9 +76,9 @@ margin-top: -240px;/*CAJA HACIA ABAJO*/
 .p1{
   position: static;
   font-size: 28px;/*TAMAÑO DE LETRA*/
-  width: 360px;/*ANCHO DE LA CAJA*/
+  width: 320px;/*ANCHO DE LA CAJA*/
   height: 330px;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 15px;
   margin-left: 5px;/*CAJA A LA IZQUIERDA*/
   margin-top: -370px;/* CAJA HACIA ARRIBA*/
 }

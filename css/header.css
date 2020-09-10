@@ -40,7 +40,7 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
   float: right;
   display: none;
 }
-.nav{
+.home{
   width: 280px;
   height: 170px;
   margin-left: 77%;
@@ -48,7 +48,7 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
   margin-top: -60px;
 }
 
-.bt{
+.boton{
   float: left;
   padding: 10px;
   margin-right: 20px;
@@ -57,7 +57,7 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
   font-weight: 600;
   font-family: serif;
 }
-.bt:hover{
+.boton:hover{
   color: white;
   background-color: orange;
 }
@@ -65,7 +65,7 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
   display: flex;
   flex-direction: column;
 }
-.botones4 {
+.botonespro {
   list-style: none;
   display: none;
 }
@@ -75,24 +75,23 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
 .mas:hover{
   background-color: orange;
 }
-.botones4 a{
+.botonespro a{
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
 }
-.botones4 a li{
+.botonespro a li{
   text-decoration: none;
   color: white;
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
 }
-.botones4 a li:hover{
+.botonespro a li:hover{
     background-color: #066A58;
 }
-/*SECCION DEL MENU RESPONSIVE*/
-.cajaDeIconos{
+.cajaIconos{
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -113,7 +112,7 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
 .none {
   display: none;
 }
-.cajaDeIconos{
+.cajaIconos{
   display: none;
 }
 @media only screen and (max-width:767px){/*RESPONSIVE*/
@@ -130,10 +129,10 @@ header{
   font-size: 20px;/*TAMAÑO DE LETRA*/
 }
   .david2{
-  height: 3550px;/*ALTO DE LA CAJA*/
+  height: 3300px;/*ALTO DE LA CAJA*/
   width: 100%;
   }
-  .cajaDeIconos{
+  .cajaIconos{
     display: block;
   }
   .logoResponsive {
@@ -144,10 +143,10 @@ header{
   .activarNav {
     background-color: #47DA3B;
     width: 50%;
-    height: 324px;
+    height: 280px;
     position: absolute;
   }
-  .nav {
+  .home{
     width: 100%;
     margin-left: 0px;
     margin-top: -0px;
@@ -159,12 +158,13 @@ header{
   .activarBotones {
     display: block;
   }
-  .bt {
+  .boton{
     display: block;
     float: none;
+    margin-top: 20px;
     margin-right: 0px;
-    padding-top: 60px;
-    font-size: 15px;
+    padding-top: 15px;
+    font-size: 18px;
     font-weight: 400;
   }
   #iconoMenu{
@@ -174,20 +174,20 @@ header{
   .mas:hover{
     background-color: orange;
   }
-  .botones4 a{
+  .botonespro a{
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 12px;
   }
-  .botones4 a li{
+  .botonespro a li{
     text-decoration: none;
     color: white;
     padding-top: 10px;
     padding-left: 30px;
     padding-bottom: 10px;
   }
-  .botones4 a li:hover{
+  .botonespro a li:hover{
       background-color: #16a085;
   }
 }

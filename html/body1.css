@@ -136,14 +136,6 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
 .fondohtml img{
   height: 400px;
 }
-.dj_slideshow-container img{
-  width: 250px;
-  height: 200px;
-  margin-right: 150px;
-  margin-left: -250px;
-  margin-top: 10px;
-
-}
 .textolab{
   position: absolute;
   font-size: 20px;
@@ -201,6 +193,9 @@ margin-top: -250px;/*CAJA HACIA ABAJO*/
   display: flex;
   flex-direction: column;
 
+}
+.mySlides{
+  width: 10px;
 }
 .dot {
   margin-right: 30px;

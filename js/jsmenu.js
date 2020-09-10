@@ -1,24 +1,24 @@
-var botonlis4 = document.getElementById("lisBotondes");
-var boton4 = document.getElementById("botondes");
+var botonlispro = document.getElementById("lisBotondes");
+var botonpro = document.getElementById("botondes");
 
 function desplegarBoton4() {
-  botonlis4.classList.add("mostrar");
+  botonlispro.classList.add("mostrar");
 }
 
 function ocultarBoton4() {
-  botonlis4.classList.remove("mostrar");
+  botonlispro.classList.remove("mostrar");
 }
 
-boton4.addEventListener("mouseover", desplegarBoton4, true);
-boton4.addEventListener("mouseout", ocultarBoton4, true);
+botonpro.addEventListener("mouseover", desplegarBoton4, true);
+botonpro.addEventListener("mouseout", ocultarBoton4, true);
 
 /*PROGRAMACIÓN DEL MENU EN MODO MOBIL*/
 
 var iconoMenuMobil = document.getElementById("iconoMenu"),
   botonCerrar = document.getElementById("iconoCerrar");
 
-var nav = document.getElementById("nav"),
-  botonesNav = document.getElementById("ulNav");
+var nav = document.getElementById("home"),
+  botonesNav = document.getElementById("ulhome");
 
 function desplegarMenuMobil() {
   nav.classList.add("activarNav");
