@@ -1,0 +1,192 @@
+[33mcommit c3bb6af5b8cab00e6be35c98f3cdea5fac8094db[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Mon Sep 14 10:11:59 2020 -0600
+
+    Se cambiaron propiedades del menu
+
+[33mcommit cea37065e6acfc769621143bba87fadfcdc2f31a[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: e9f590a cd84ca3
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Thu Sep 10 16:31:30 2020 -0600
+
+    Merge branch 'nuevoNavegador' into master
+
+[33mcommit cd84ca3e6375b0d121d4eb5d2d5423f709ec5baa[m[33m ([m[1;32mnuevoNavegador[m[33m)[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Thu Sep 10 16:27:33 2020 -0600
+
+    Se realizaron algunos cambios en secciones del portafolio y en el menu
+
+[33mcommit e9f590afa2047dd174b046653bb7fbe64e99443e[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Tue Sep 8 16:59:28 2020 -0600
+
+    Create git status
+
+[33mcommit 4ee0a7a9faacb0f8683fa80b0132b2b0f35fd47b[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Tue Sep 8 16:09:22 2020 -0600
+
+    Menu responsive completado
+
+[33mcommit b1fe8b9891109e8563c27fae1249815cc1a581eb[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Tue Sep 8 12:34:45 2020 -0600
+
+    Menú desplegable completado
+
+[33mcommit aa25b39259cb485eb0cbd4fd5b5a4d0023997142[m
+Author: Proyectocompu <kuani2443t@gmail.com>
+Date:   Tue Sep 8 12:27:36 2020 -0600
+
+    Menú de escritorio completado
+
+[33mcommit 82ab2cdf4963b6e2c192c54d3f9af5906880248b[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:56:55 2020 -0600
+
+    Update java.html
+
+[33mcommit 1f974bcdde68a74a5ceb4906795fac8c080faae4[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:55:31 2020 -0600
+
+    Update body.css
+
+[33mcommit ab514d65b98729e03f21e5177a8eacca146a04ca[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:55:04 2020 -0600
+
+    Update footer.css
+
+[33mcommit b3da29822c4f9b80ab2e4f392da2db7dd053dd64[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:54:37 2020 -0600
+
+    Update header.css
+
+[33mcommit 4a811558b2b6668a452254dbc4c56f71bcf78331[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:52:46 2020 -0600
+
+    Update body.css
+
+[33mcommit 0b8bf5e5d97873cdb163e3fa0740805c58c305e9[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:52:15 2020 -0600
+
+    Update footer.css
+
+[33mcommit d5374a907484d8aabbb801612a6c6f9c1506d8d4[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:51:52 2020 -0600
+
+    Update header.css
+
+[33mcommit c6308a919371541b0703257104a496132290778c[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:51:15 2020 -0600
+
+    Update body.css
+
+[33mcommit 6115de7763c70d53b29989aca12df20b036f6a42[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:50:46 2020 -0600
+
+    Update footer.css
+
+[33mcommit 38be5492125e3610aaed659a747d2d89422b459c[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:49:32 2020 -0600
+
+    Update header.css
+
+[33mcommit 1657e658a7465713cf7b1cfd91c2ed4add4e2bfd[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:46:27 2020 -0600
+
+    Update body1.css
+
+[33mcommit 6fcf64f452b906c5f4b413b4152ca4a990a9f9ed[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:45:54 2020 -0600
+
+    Update footer1.css
+
+[33mcommit 524a3a7270d6565a5f96b8c5bda309e562d06c4c[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:45:28 2020 -0600
+
+    Update header1.css
+
+[33mcommit ccbc78b3ae4384ade9a2613f0f48e74719d625ff[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:43:21 2020 -0600
+
+    Add files via upload
+
+[33mcommit 3b08b6460340e752b28634f162bf2a080fcc09d7[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:42:41 2020 -0600
+
+    Add files via upload
+
+[33mcommit e95e900bf33276d7279a79872e727204c25664fc[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:42:20 2020 -0600
+
+    Add files via upload
+
+[33mcommit 4824b0ad04b33c958477ba15079876d9afa22d19[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:40:31 2020 -0600
+
+    Add files via upload
+
+[33mcommit 68bc1885253a8fd2dcf7af600e3ff8764d3382ed[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:38:38 2020 -0600
+
+    Update principal.html
+
+[33mcommit a6855a0dff26777bcbed2db5c1d1e9feffd1e9da[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:37:53 2020 -0600
+
+    Update android.html
+
+[33mcommit d6f684c7b899cae2145e50a811a57a33c7eb1a27[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:37:11 2020 -0600
+
+    Update html.html
+
+[33mcommit fce8b6eba8f065067185a1b653b87fecfcdac30d[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Tue Aug 18 17:36:26 2020 -0600
+
+    Update java.html
+
+[33mcommit eec0ea90b9c9534282ebb9af8f466ecbcb5a071a[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Mon Aug 10 09:20:55 2020 -0600
+
+    Add files via upload
+
+[33mcommit 5f3a6cb45ea58c4b1d59164395b9bc689ca58541[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Mon Aug 10 09:19:53 2020 -0600
+
+    Add files via upload
+
+[33mcommit da4e5b0f3aa0cb358a7a29207bb9b8afc98a913c[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Mon Aug 10 09:17:37 2020 -0600
+
+    Add files via upload
+
+[33mcommit 8071121f42c8f981d10b7cab200d0cd6f72140a4[m
+Author: DavidJ285 <66433629+DavidJ285@users.noreply.github.com>
+Date:   Mon Aug 10 09:09:12 2020 -0600
+
+    Add files via upload
