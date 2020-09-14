@@ -92,16 +92,17 @@ background-color: #078C74;/*COLOR DE LA CAJA*/
 }
 
 #iconoMenu{
+  position: absolute;
   width: 35px;
   margin-top: 10px;
   display: none;
   margin-left: 10px;
 }
 #iconoCerrar {
-  width: 25px;
+  position: absolute;
+  width: 35px;
   margin-top: 10px;
-  float: right;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .none {
   display: none;

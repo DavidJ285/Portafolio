@@ -96,18 +96,18 @@ margin-top: 50px;/*CAJA HACIA ABAJO*/
   height: auto;
   overflow: hidden;
 }
-
 #iconoMenu{
+  position: absolute;
   width: 35px;
   margin-top: 10px;
   display: none;
   margin-left: 10px;
 }
 #iconoCerrar {
-  width: 25px;
+  position: absolute;
+  width: 35px;
   margin-top: 10px;
-  float: right;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .none {
   display: none;
@@ -143,13 +143,13 @@ header{
   .activarNav {
     background-color: #47DA3B;
     width: 50%;
-    height: 280px;
+    height: 260px;
     position: absolute;
   }
   .home{
     width: 100%;
     margin-left: 0px;
-    margin-top: -0px;
+    margin-top: 50px;
     padding-top: 0px;
     padding-left: 0px;
     box-sizing: border-box;
