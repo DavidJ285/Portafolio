@@ -10,6 +10,7 @@
 }
 
 p {
+	color: white;
 	text-transform: uppercase;
   	letter-spacing: .5em;/*SEPARAR LAS LETRAS*/
 	border: 4px double rgba(255,255,255);/*BORDE*/
